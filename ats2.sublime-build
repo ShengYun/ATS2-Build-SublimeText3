@@ -1,0 +1,5 @@
+{
+    "path": "/usr/local/bin:$PATH",
+    "cmd": ["patscc", "-o", "$file_base_name", "$file"],
+    "selector": "source.ATS"
+}
