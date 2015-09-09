@@ -1,0 +1,12 @@
+{
+    "path": "/usr/local/bin:$PATH",
+    "cmd": ["patscc", "-tcats", "$file"],
+    "selector": "source.ATS",
+    "variants": [
+      {
+        "path": "/usr/local/bin:$PATH",
+        "name": "Generate Executable",
+        "cmd": ["patscc", "-o", "$file_base_name", "$file"],
+      }
+    ]
+}
